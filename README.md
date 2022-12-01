@@ -1,13 +1,34 @@
 ## Available Scripts
 
-<h5>1: what is the difference between Functional components and Class components</h5>
+# 1: what is the difference between Functional components and Class components
 
-<h5>2: rools of hooks</h5>
+    functional component:
+        - plain javascript
+        - good readability
+        - stateless
+        - presence of hooks
 
-<h5>3: how useEffect work ? </h5>
+    class component
+        - class extend React.Component
+        - bad readability
 
-<h5>4: why state and not common variable ? </h5>
+# 2: rules of hooks
 
-<h5>5: what is props ? </h5>
+    -hooks can only be called inside FC (functional component)
+    -custom hooks must start with "use"
+    -hooks can only be called on top level function
 
-<h5>6: what is props ? </h5>
+# 3: how useEffect work ?
+
+    - useEffect it's a hooks that watch the lifecycle of the component and it takes as a first argument a callback function,
+     and the seconde argument is an array of dependencies that keep watching them every change happing to a dependency it will rerender the component
+
+# 4: why state and not common variable ?
+
+    - a variable can not revaluate the html, thats why we should use state for revaluation and rerendering
+
+# 5: what is props ?
+
+    -a props it's a object that contain the properties of a component
+
+# 6: what is props ?
