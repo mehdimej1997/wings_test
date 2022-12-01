@@ -1,0 +1,33 @@
+.cards_container {
+  margin-block: 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_container {
+  background-color: #fff;
+  width: 32%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card_title,
+.card_description {
+  margin-block: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .card_container {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card_container {
+    width: 100%;
+  }
+}
