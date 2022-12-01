@@ -21,7 +21,7 @@
 # 3: how useEffect work ?
 
     - useEffect it's a hooks that watch the lifecycle of the component and it takes as a first argument a callback function,
-     and the seconde argument is an array of dependencies that keep watching them every change happing to a dependency it will rerender the component
+     and the seconde argument is an array of dependencies that keep watching them every change happing to a dependency it will re-execute the callback
 
 # 4: why state and not common variable ?
 
